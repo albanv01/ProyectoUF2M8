@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.incivisme.NotificarFragment"
+        android:label="@string/title_principal"
+        tools:layout="@layout/fragment_notificar" />
+
+    <fragment
+        android:id="@+id/navigation_llistat"
+        android:name="com.example.incivisme.LlistarFragment"
+        android:label="@string/title_llistat"
+        tools:layout="@layout/fragment_llistar" />
+
+    <fragment
+        android:id="@+id/navigation_mapa"
+        android:name="com.example.incivisme.MapaFragment"
+        android:label="@string/title_mapa"
+        tools:layout="@layout/fragment_mapa" />
+</navigation>

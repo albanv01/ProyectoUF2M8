@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Incivisme</string>
-    <string name="title_principal">Principal</string>
-    <string name="title_llistat">Llistat</string>
+    <string name="app_name">Contenidor Taronja</string>
+    <string name="title_principal">FeedBack</string>
+    <string name="title_llistat">Opinions</string>
     <string name="title_mapa">Mapa</string>
     <!--string para fragment vacio -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
